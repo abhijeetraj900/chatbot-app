@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600&family=Lato:wght@300;400&family=Montserrat:wght@100;300;400;500&family=Nunito:ital,wght@0,200;0,300;1,400&family=Open+Sans:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-blue-40 font-figtree;
+  }
+}
+
+@layer utilities {
+  .main-nav__link a.active {
+    @apply bg-white-10;
+  }
+
+  .main-nav__link a.active span {
+    @apply opacity-80;
+  }
+}
