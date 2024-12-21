@@ -24,6 +24,16 @@ A ReactJS-based web application where users can chat with an AI model and provid
   - View all feedback across conversations.
   - Filter feedback based on ratings.
 - **Dark Mode**: Toggle between light and dark modes for improved Ui, working on it.
+
+## 🛠️ Tech Stack
+
+The project leverages the following technologies:
+
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: For responsive and utility-first CSS styling.
+- **React Icons**: For scalable, customizable icons.
+- **Theme Context**: To manage and implement dark mode functionality.
+
   
 ## 🚀 Live Demo
 
